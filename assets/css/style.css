@@ -1,0 +1,72 @@
+/*CSS stylesheet*/
+
+.container{
+			margin: 0 auto;
+			width: 960px;
+}
+
+.nameBar{
+			width: 480px;
+			float: left;
+			display: inline;
+
+}
+
+.navBar{
+			width: 480px;
+			float: right;
+			display: inline;
+
+
+}
+
+.contentBox{
+				width: 960px;
+				float: left;
+				display: inline;
+				padding: 10px 10px 10px 10px;
+
+
+
+}
+
+.aboutMe{
+			width: 650px;
+			margin: 10px 10px 10px -10px;
+}
+
+.contactBox{
+				width: 270px;
+				float: right;
+				display: inline-block;
+
+}
+.contactBox:after{
+					clear: both;
+					display: block;
+}
+.copyrightBar{
+
+}
+
+h1, h2, h3 {
+				font-family: "Georgia", "Times New Roman", Times, serif;
+}
+
+h1 {
+		color: #fff;
+		background-color: teal;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+
+h2 {
+		color: teal;
+}
+
+a {
+	float: right;
+	margin: 40px 5px 5px 5px;
+}
+
