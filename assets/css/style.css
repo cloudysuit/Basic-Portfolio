@@ -1,18 +1,21 @@
 /*CSS stylesheet*/
 
-.container{
+.container {
 			margin: 0 auto;
 			width: 960px;
+			
+			
 }
 
-.nameBar{
+
+.nameBar {
 			width: 480px;
 			float: left;
 			display: inline;
 
 }
 
-.navBar{
+.navBar {
 			width: 480px;
 			float: right;
 			display: inline;
@@ -20,34 +23,34 @@
 
 }
 
-.contentBox{
+.contentBox {
 				width: 960px;
 				float: left;
-				display: inline;
 				padding: 10px 10px 10px 10px;
 
 
 
 }
 
-.aboutMe{
+.aboutMe {
 			width: 650px;
-			margin: 10px 10px 10px -10px;
+			float: left;
 }
 
-.contactBox{
+.contactBox {
 				width: 270px;
 				float: right;
-				display: inline-block;
+				
 
 }
-.contactBox:after{
+.contactBox:after {
 					clear: both;
 					display: block;
 }
-.copyrightBar{
+.copyrightBar {
 
 }
+
 
 h1, h2, h3 {
 				font-family: "Georgia", "Times New Roman", Times, serif;
@@ -61,12 +64,18 @@ h1 {
 		padding-bottom: 10px;
 }
 
-h2 {
+h2, h3 {
 		color: teal;
 }
 
 a {
 	float: right;
 	margin: 40px 5px 5px 5px;
+	font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+p {
+	font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+	float: right;
+	color: #777;
+}
