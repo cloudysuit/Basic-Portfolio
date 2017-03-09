@@ -1,5 +1,26 @@
 /*CSS stylesheet*/
 
+body {
+		background-color: #E14040;
+		font-size: 13px;
+}
+
+h1, h2, h3 {
+				font-family: "Georgia", "Times New Roman", Times, serif;
+
+}
+
+h2, h3 {
+		color: teal;
+		font-size: 25px;
+}
+
+h3 {
+		text-align: center;
+		padding: 10px;
+		
+}
+
 .container {
 			margin: 0 auto;
 			width: 960px;
@@ -9,37 +30,66 @@
 
 
 .nameBar {
-			width: 480px;
+			
 			float: left;
 			display: inline;
+			margin-left: 60px;
+
+}
+
+.name {
+		color: #fff;
+		background-color: teal;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: "Georgia", "Times New Roman", Times, serif;
+		font-size: 35px;
 
 }
 
 .navBar {
-			width: 480px;
 			float: right;
 			display: inline;
 
 
 }
 
+li {
+		display: inline;
+		text-decoration: none;
+}
+
+.navStyle {
+				background-color: #fff;
+}
+
+
 .contentBox {
 				width: 960px;
 				float: left;
-				padding: 10px 10px 10px 10px;
-
-
+				
 
 }
 
 .aboutMe {
-			width: 650px;
+			width: 68%;
 			float: left;
+			background-color: #fff;
 }
+
+.aboutMeImage {
+				float: left;
+				margin: 10px 20px 20px 0px;
+}
+
 
 .contactBox {
 				width: 270px;
 				float: right;
+				background-color: #fff;
 
 }
 				
@@ -48,33 +98,25 @@
 					display: block;
 }
 
-.sidebar {
+#contactStyle {
+				margin: 0;
+}
+
+.sidebarImage {
 			width: 50px;
 			height: 50px;
-}
-.copyrightBar {
-
+			margin: 5%;
 }
 
 
-h1, h2, h3 {
-				font-family: "Georgia", "Times New Roman", Times, serif;
+.copyrightBar { clear: both;
+				text-align: center;
+				background-color: #666;
+				padding-top: 20px;
+				padding-bottom: 20px;
 
 }
 
-h1 {
-		color: #fff;
-		background-color: teal;
-		text-align: center;
-		padding-top: 10px;
-		padding-bottom: 10px;
-}
-
-h2, h3 {
-		color: teal;
-		margin-top: 30px;
-		margin-bottom: -5px;
-}
 
 a {
 	float: right;
@@ -85,11 +127,13 @@ a {
 
 p {
 	font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
-	float: right;
 	color: #777;
+	font-size: 15px;
+	margin-top: 15px;
 }
 
-li {
-		display: inline;
-		text-decoration: none;
-}
+
+
+
+article {	
+			padding: 20px 20px;
