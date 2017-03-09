@@ -60,9 +60,11 @@ h3 {
 li {
 		display: inline;
 		text-decoration: none;
+		font-size: 20px
 }
 
 .navStyle {
+				display: block;
 				background-color: #fff;
 }
 
@@ -122,6 +124,7 @@ a {
 	float: right;
 	margin: 40px 5px 5px 5px;
 	font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+	color: #666;
 	text-decoration: none;
 }
 
