@@ -1,8 +1,8 @@
 /*CSS stylesheet*/
 
 body {
-		background-color: #E14040;
-		font-size: 13px;
+		background-image: url(../images/naturalblack.png);
+		font-size: 13.666px;
 }
 
 h1, h2, h3 {
@@ -21,6 +21,14 @@ h3 {
 		
 }
 
+a {
+	float: right;
+	margin: 40px 5px 5px 5px;
+	font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+	color: #666;
+	text-decoration: none;
+}
+
 .container {
 			margin: 0 auto;
 			width: 960px;
@@ -33,7 +41,7 @@ h3 {
 			
 			float: left;
 			display: inline;
-			margin-left: 60px;
+			margin-left: 75px;
 
 }
 
@@ -53,25 +61,53 @@ h3 {
 .navBar {
 			float: right;
 			display: inline;
+			
 
 
+}
+
+ul {
+		position: relative;
+		left: 5px;
 }
 
 li {
 		display: inline;
 		text-decoration: none;
 		font-size: 20px
+		
+
 }
+
 
 .navStyle {
-				display: block;
-				background-color: #fff;
+			background-color: #fff;
 }
 
+#navStyle {
+			background-color: #ffffff;
+			border-width: 2px;
+			border-color: red;
+			border-style: solid;
+			border-top: 0px;
+			border-left: 0px;
+			border-right: 0px;
+			clear: both;
+			height: 75px;
+			width: 100%;
+			margin: 0px;
+
+
+}
+
+/*#fixed {
+			width: 960px;
+}*/
 
 .contentBox {
 				width: 960px;
 				float: left;
+				margin-top: 25px;
 				
 
 }
@@ -92,6 +128,7 @@ li {
 				width: 270px;
 				float: right;
 				background-color: #fff;
+			
 
 }
 				
@@ -105,9 +142,12 @@ li {
 }
 
 .sidebarImage {
-			width: 50px;
-			height: 50px;
-			margin: 5%;
+				width: 50px;
+				height: 50px;
+				margin: 5%;
+				position: relative;
+				left: 16px;
+				bottom: 3px;
 }
 
 
@@ -116,17 +156,19 @@ li {
 				background-color: #666;
 				padding-top: 20px;
 				padding-bottom: 20px;
+				font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+				border-width: 5px;
+				border-style: solid;
+				border-color: teal;
+				border-left: 0px;
+				border-right: 0px;
+				border-bottom: 0px;
+				width: 100%;
 
 }
 
 
-a {
-	float: right;
-	margin: 40px 5px 5px 5px;
-	font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
-	color: #666;
-	text-decoration: none;
-}
+
 
 p {
 	font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
@@ -136,7 +178,5 @@ p {
 }
 
 
-
-
-article {	
+article, form {	
 			padding: 20px 20px;
