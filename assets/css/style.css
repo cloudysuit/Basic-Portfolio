@@ -90,8 +90,6 @@ a {
 }*/
 
 li {
-		display: inline;
-		text-decoration: none;
 		font-size: 20px
 		
 
@@ -113,11 +111,8 @@ li {
 			clear: both;
 			height: 75px;
 			width: 100%;
-			margin: 0px;
+			margin: 0px 75px 0px 0px;
 			float: left;
-			/*position: fixed;
-			top: 0;*/
-
 
 }
 
@@ -131,7 +126,7 @@ a.red:hover {
 
 
 #fixed {
-			width: 960px;
+			width: 1124px;
 }
 
 .contentBox {
@@ -168,8 +163,13 @@ a.red:hover {
 }
 
 #contactStyle {
-				margin: 5px 0px 5px 0px;
+				margin: 10px 0px 0px 0px;
 
+}
+
+.contactHR {	
+				margin-left: 20px;
+				margin-right: 20px;
 }
 
 .sidebarImage {
@@ -240,28 +240,28 @@ div.pfTags:active {
 
 #hangman { 
 			bottom: 396px;
-			right: 308px; 
+			right: 307.5px; 
 }
 
 #rpg {
 		bottom: 396px;
-		left: 274px;
+		left: 273.4px;
 }
 
 #trivia {
 			bottom: 214px;
-			right: 308px;
+			right: 307.5px;
 			
 }
 
 #rutgers {
 			bottom: 214px;
-			left: 274px;
+			left: 273.4px;
 }
 
 #rock {
 			bottom: 32px;
-			right: 308px;
+			right: 307.5px;
 
 			
 }
@@ -277,6 +277,9 @@ article, form {
 			padding: 20px 20px;
 }
 
+#contactForm{
+				padding: 20px 20px;
+}
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */

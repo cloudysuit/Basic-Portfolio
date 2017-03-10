@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<section id="navStyle" class="navStyle">
+<div id="navStyle" class="navStyle">
 	<div id="fixed">
 		<header class="nameBar name"> 
 			Stephen Hanson
@@ -22,14 +22,14 @@
 		</ul>	
 		</nav>
 	</div>
-</section>	
+</div>	
 <!--This container hold the whole page-->
 <div class="container page-wrap">
 <!--Navigation Bar name and nav links -->
 
 <!--ABout me, image, and social media links-->
 	<div class="contentBox">
-		<section class="aboutMe">
+		<div class="aboutMe">
 			<article>
 				<header>
 					<h2>Portfolio</h2>
@@ -41,35 +41,39 @@
 
 				<nav class="portfolioImages">
 
-					<img src="assets/images/monster.jpg">
+					<img src="assets/images/monster.jpg" alt="Hangman">
 					<a href="#">
 						<div id="hangman" class="pfTags">Hangman</div>
 					</a>	
-					<img src="assets/images/monster.jpg">
+					<img src="assets/images/monster.jpg" alt="RPG">
 					<a href="#">
 						<div id="rpg" class="pfTags">Role Playing Game</div>
-						</a>
-					<img src="assets/images/monster.jpg">
-					<a href="#">	<div id="trivia" class="pfTags">Trivia Game</div>
 					</a>
-					<img src="assets/images/monster.jpg">
-					<a href="#">	<div id="rutgers" class="pfTags">Rutgers Info Widget</div>
+					<img src="assets/images/monster.jpg" alt="Trivia">
+					<a href="#">
+						<div id="trivia" class="pfTags">Trivia Game</div>
 					</a>
-					<img src="assets/images/monster.jpg">
-					<a href="#">	<div id="rock" class="pfTags">Rock Paper Scissors</div></a>
+					<img src="assets/images/monster.jpg" alt="Rutger Info Widget">
+					<a href="#">	
+						<div id="rutgers" class="pfTags">Rutgers Info Widget</div>
+					</a>
+					<img src="assets/images/monster.jpg" alt="Rock Paper Scissors">
+					<a href="#">	
+						<div id="rock" class="pfTags">Rock Paper Scissors</div>
+					</a>
 
 			
 				</nav>
 				
 			</article>
-		</section>
+		</div>
 
 		<aside class="contactBox">
 			
 			<header id="contactStyle">
 				<h3>Connect with me!</h3>
 			</header>
-			<hr>
+			<hr class="contactHR">
 				<div>
 					<img class="sidebarImage" src="assets/images/1488974317_29.png" alt="github">
 					<img class="sidebarImage" src="assets/images/1488974352_square-linkedin.png" alt="LinkdIn">
@@ -80,7 +84,7 @@
 	</div>
 </div>
 <!--footer!-->
-<footer class="copyrightBar">Copyright &copy 2017 Stephen Hanson</footer>
+<footer class="copyrightBar">Copyright &copy; 2017 Stephen Hanson</footer>
 
 </body>
 </html>
