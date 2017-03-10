@@ -46,6 +46,8 @@ a {
 			margin: 0 auto;
 			width: 960px;
 			
+
+
 			
 }
 
@@ -81,10 +83,10 @@ a {
 
 }
 
-ul {
+/*ul {
 		position: relative;
 		
-}
+}*/
 
 li {
 		display: inline;
@@ -112,6 +114,8 @@ li {
 			width: 100%;
 			margin: 0px;
 			float: left;
+			/*position: fixed;
+			top: 0;*/
 
 
 }
@@ -154,7 +158,8 @@ li {
 }
 
 #contactStyle {
-				margin: 0;
+				margin: 5px 0px 5px 0px;
+
 }
 
 .sidebarImage {
@@ -184,9 +189,59 @@ li {
 
 }
 
+.portfolioImages {
+					margin-left: 35px;
+					z-index: 1;
+					position: relative;
 
 
+}
 
+.pfTags {
+			width: 270px;
+			padding: 10px 0px 10px 0px;
+			background-color: teal;
+			font-family: "Georgia", "Times New Roman", Times, serif;
+			font-size: 25px;
+			text-align: center;
+			color: #fff;
+			z-index: 2;
+			position: absolute;
+
+}
+
+#hangman, 
+#rpg, 
+#trivia, 
+#rutgers, 
+#rock {
+			z-index: 2;
+			position: absolute
+}
+
+#hangman { 
+			bottom: 396px; 
+}
+
+#rpg {
+		bottom: 396px;
+		left: 273px;
+}
+
+#trivia {
+			bottom: 214px;
+			
+}
+
+#rutgers {
+			bottom: 214px;
+			left: 273px;
+}
+
+#rock {
+			bottom: 32px;
+			
+}
 p {
 	font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
 	color: #777;
